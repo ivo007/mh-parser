@@ -1,0 +1,47 @@
+@CHARSET "UTF-8";
+
+/* (C) http://thisisleon.co.uk/2009/10/14/jquery-ajax-loading-widget/ 
+http://stackoverflow.com/a/3214529 */
+#overlay {
+    width: 100%;
+    background: url(images/loading.gif) repeat;
+    position: relative;
+}
+
+#overlay img.loading_circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.input_inline {
+	vertical-align:baseline;
+}
+
+.popover_container {
+	margin-top:-30px;
+ 	left:120px;
+	display:block;
+	position:absolute;
+	z-index:1000;
+	width:350px;
+	height:400px;
+    background-color: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.points {
+	font-weight:bold;
+	font-size:1.1em;
+	color:#2813EB;
+}
+
+.description {
+	font-size:1.12em;
+	font-style:italic;
+	line-height:150%;
+	text-shadow: 0.8px 0.8px #a0a0a0;
+	margin-top:19px;	
+}
